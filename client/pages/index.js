@@ -1,5 +1,6 @@
 
 import Header from '../components/Header'
+import Main from '../components/Main'
 
 
 const style = {
@@ -10,7 +11,7 @@ const Home = () => {
   return (
     <div className={style.wrapper}>
       <Header />
-      <h2>Main</h2>
+      <Main/>
       <h2>Transaction History</h2>
     </div>
   )
